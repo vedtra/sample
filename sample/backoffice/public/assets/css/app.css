@@ -1,0 +1,30 @@
+.sidebar.dark-blue {
+    background-color: #204179;
+}
+.sidebar.dark-green {
+    background-color: #75a704;
+}
+
+.navbar-brand > img {
+    margin-top: -10px;
+    height: auto;
+}
+.breadcrumb > li > a{
+    color:#9AC33D;
+}
+.breadcrumb > .active{
+    color:#204179;
+}
+h3.page_title{
+    color: #204179;
+    font-weight: 500;
+}
+#grid > tbody > tr,.table.mygrid > tbody > tr{
+    cursor: pointer;
+}
+#grid > tbody > tr:hover,.table.mygrid > tbody > tr:hover{
+    background:#eff5ff;
+}
+.dropup .dropdown-menu{    
+    margin-bottom: -70px;
+}

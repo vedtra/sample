@@ -1,0 +1,64 @@
+.navbar-inverse.large{
+    height: 60px;
+    padding-top: 5px;
+    background:#fff;
+    border-bottom-color: #ccc;
+}
+.navigation {    
+    padding: 60px 0;    
+}
+.content {
+    padding: 10px 30px 60px 30px;
+}
+.navbar-inverse.large .navbar-nav > li > a > i{
+    color: #204179;
+}
+.navbar-inverse.large .navbar-nav > li > a {
+    color: #4A4A4A;
+}
+.navbar-inverse.large .navbar-nav > li > a:hover,
+.navbar-inverse.large .navbar-nav > .open > a, 
+.navbar-inverse.large .navbar-nav > .open > a:hover, 
+.navbar-inverse.large .navbar-nav > .open > a:focus {
+    background-color: transparent;    
+    color: #4A4A4A;
+}
+.navigation > li.active > a
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: 500;
+}
+.navigation > li.active > a > i{
+    color:#9AC33D;
+}
+.navigation > li.active > a:hover,
+.navigation > li.active > a:focus {
+    background-color: transparent;
+}
+.pace .pace-progress {
+    background: #204179;
+}
+.btn-success,.btn-success:hover {
+    color: #fff;
+    background-color: #9AC33D;
+    border-color: #9AC33D;
+}
+.btn-primary,.btn-primary:hover {
+    color: #fff;
+    background-color: #204179;
+    border-color: #204179;
+}
+.btn-secondary, .btn-secondary:hover {
+    color: #204179;
+    background-color: #ffffff;
+    border-color: #9ac33d;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, 
+input[type="search"]:focus, input[type="email"]:focus, input[type="number"]:focus,
+input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus,
+input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
+ input[type="url"]:focus, input[type="tel"]:focus, textarea:focus{
+    border-color: #204179;
+}
